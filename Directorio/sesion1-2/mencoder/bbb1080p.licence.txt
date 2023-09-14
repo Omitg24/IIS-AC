@@ -1,0 +1,28 @@
+http://www.bigbuckbunny.org/
+http://www.bigbuckbunny.org/index.php/about/
+
+License information
+ 
+The results of the Peach open movie project has been licensed under the Creative Commons Attribution 3.0 license. This includes all the data we’ve published online and on the DVDs, and all of the contents on this website. If any content on this site is not licensed as such, it will be clearly indicated.
+ 
+In short, this means you can freely reuse and distribute this content, also commercially, for as long you provide a proper attribution.
+ 
+
+The attribution is either one of the following cases
+ 
+
+1) For this website and files on the DVD ROMs:
+ Blender Foundation | www.blender.org
+ 
+2) If you screen or broadcast the entire movie and/or documentary:
+ Include the entire credits roll in ending.
+ 
+3) If you re-use (or screen, broadcast) parts of the movie or documentary itself, or duplicate the DVDs:
+ (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org
+ 
+4) Some of the texture files on the DVDs have an own Creative Commons attribution, these are indicated clearly.
+ 
+Excluded from the Creative Commons is:
+ 
+- all logos on this website (including Blender logo, Creative Commons logo) and associated trademarks
+ - the DVD cover (inlay) and DVD disc print

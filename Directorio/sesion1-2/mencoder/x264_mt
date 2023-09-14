@@ -1,0 +1,1 @@
+mencoder bbb1080p.mp4 -ovc x264 -x264encopts threads=auto -oac lavc -vf scale=640:480 -o bbb480_mt.mp4

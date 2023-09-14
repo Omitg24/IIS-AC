@@ -1,0 +1,287 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.10.06 14:57:30 =~=~=~=~=~=~=~=~=~=~=~=
+login as: student
+student@localhost's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-210-generic i686)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+16 packages can be updated.
+2 updates are security updates.
+
+New release '18.04.6 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Wed Oct  6 14:54:34 2021
+student@2ac:~$ student@2ac:~$ c d 2ac
+student@2ac:~/2ac$ git p pull
+Already up-to-date.
+student@2ac:~/2ac$ student@2ac:~/2ac$ cd
+student@2ac:~$ cd 2ac
+student@2ac:~/2ac$ mkdir examen
+student@2ac:~/2ac$ cd examen
+student@2ac:~/2ac/examen$ tar xcfvfz examen1.tar.gz 
+program.c
+results.xls
+student@2ac:~/2ac/examen$ ls
+examen1.tar.gz  program.c  results.xls
+student@2ac:~/2ac/examen$ cd 2a ..
+student@2ac:~/2ac$ cd examen1/
+student@2ac:~/2ac/examen1$ less /proc/cpuinfor > <> examen1/cpu.txt
+-bash: examen1/cpu.txt: No such file or directory
+student@2ac:~/2ac/examen1$ less /proc/cpuinfo > examen1(/cpui.t.txt
+-bash: examen1/cpu.txt: No such file or directory
+student@2ac:~/2ac/examen1$ CD cd ..
+student@2ac:~/2ac$ cd ..less /proc/cpuinfo > examen1/cpu.txt
+student@2ac:~/2ac$ cd examen1/
+student@2ac:~/2ac/examen1$ gcc -c procmagrqamam.c
+program.c: In function main:
+program.c:160:33: error: tStart undeclared (first use in this function)
+  clock_gettime(CLOCK_REALTIME, &tStart);
+                                 ^
+program.c:160:33: note: each undeclared identifier is reported only once for each function it appears in
+program.c:186:33: error: tEnd undeclared (first use in this function)
+  clock_gettime(CLOCK_REALTIME, &tEnd);
+                                 ^
+program.c:194:2: error: dElapsedTimeS undeclared (first use in this function)
+  dElapsedTimeS = (tEnd.tv_sec - tStart.tv_sec);
+  ^
+student@2ac:~/2ac/examen1$ student@2ac:~/2ac/examen1$ gcc -c program.c
+program.c: In function main:
+program.c:194:13: error: tEnd undeclared (first use in this function)
+  elapsed = (tEnd.tv_sec - tStart.tv_sec);
+             ^
+program.c:194:13: note: each undeclared identifier is reported only once for each function it appears in
+program.c:194:27: error: tStart undeclared (first use in this function)
+  elapsed = (tEnd.tv_sec - tStart.tv_sec);
+                           ^
+student@2ac:~/2ac/examen1$ gcc -c program.c
+student@2ac:~/2ac/examen1$ gcc -o promagram .o program.o -o proamrrgrogram -lm
+program.o: In function `mcos':
+program.c:(.text+0x2a): undefined reference to `cos'
+program.o: In function `msin':
+program.c:(.text+0x72): undefined reference to `sin'
+program.o: In function `mcosh':
+program.c:(.text+0xba): undefined reference to `cosh'
+program.o: In function `msinh':
+program.c:(.text+0x102): undefined reference to `sinh'
+program.o: In function `mexp':
+program.c:(.text+0x14a): undefined reference to `exp'
+program.o: In function `mlog':
+program.c:(.text+0x192): undefined reference to `log'
+program.o: In function `msqrt':
+program.c:(.text+0x1da): undefined reference to `sqrt'
+program.o: In function `mfloor':
+program.c:(.text+0x25e): undefined reference to `floor'
+program.o: In function `mceil':
+program.c:(.text+0x2a6): undefined reference to `ceil'
+program.o: In function `main':
+program.c:(.text+0x4e4): undefined reference to `pthread_join'
+program.o: In function `task':
+program.c:(.text+0x84c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+student@2ac:~/2ac/examen1$ gcc program.o -o program -lm
+program.o: In function `main':
+program.c:(.text+0x4e4): undefined reference to `pthread_join'
+program.o: In function `task':
+program.c:(.text+0x84c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+student@2ac:~/2ac/examen1$ gcc program.o -o program -lm-c program.c -lm
+student@2ac:~/2ac/examen1$ gcc -c program.c -lmprogram.o -o program-lm
+program.o: In function `mcos':
+program.c:(.text+0x2a): undefined reference to `cos'
+program.o: In function `msin':
+program.c:(.text+0x72): undefined reference to `sin'
+program.o: In function `mcosh':
+program.c:(.text+0xba): undefined reference to `cosh'
+program.o: In function `msinh':
+program.c:(.text+0x102): undefined reference to `sinh'
+program.o: In function `mexp':
+program.c:(.text+0x14a): undefined reference to `exp'
+program.o: In function `mlog':
+program.c:(.text+0x192): undefined reference to `log'
+program.o: In function `msqrt':
+program.c:(.text+0x1da): undefined reference to `sqrt'
+program.o: In function `mfloor':
+program.c:(.text+0x25e): undefined reference to `floor'
+program.o: In function `mceil':
+program.c:(.text+0x2a6): undefined reference to `ceil'
+program.o: In function `main':
+program.c:(.text+0x4e4): undefined reference to `pthread_join'
+program.o: In function `task':
+program.c:(.text+0x84c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+student@2ac:~/2ac/examen1$ gcc program.o -o program -ln m -lpthread
+student@2ac:~/2ac/examen1$ ./ oprprogram 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.226838 s.
+student@2ac:~/2ac/examen1$ ./program 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.301855 s.
+student@2ac:~/2ac/examen1$ ./program 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.205819 s.
+student@2ac:~/2ac/examen1$ ./program 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.328802 s.
+student@2ac:~/2ac/examen1$ ./program 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.259226 s.
+student@2ac:~/2ac/examen1$ ./program 1 19
+Running 1 muktithreaded task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 6159
+Running thread 1 of task 0; minIndex = 6160, maxIndex = 12319
+Running thread 2 of task 0; minIndex = 12320, maxIndex = 18479
+Running thread 3 of task 0; minIndex = 18480, maxIndex = 24639
+Running thread 4 of task 0; minIndex = 24640, maxIndex = 30799
+Running thread 5 of task 0; minIndex = 30800, maxIndex = 36959
+Running thread 6 of task 0; minIndex = 36960, maxIndex = 43119
+Running thread 7 of task 0; minIndex = 43120, maxIndex = 49279
+Running thread 8 of task 0; minIndex = 49280, maxIndex = 55439
+Execution finished
+Elapsed time    : 2.671203 s.
+student@2ac:~/2ac/examen1$ ./program 1 9
+Running 1 muktithreaded task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 6159
+Running thread 1 of task 0; minIndex = 6160, maxIndex = 12319
+Running thread 2 of task 0; minIndex = 12320, maxIndex = 18479
+Running thread 3 of task 0; minIndex = 18480, maxIndex = 24639
+Running thread 4 of task 0; minIndex = 24640, maxIndex = 30799
+Running thread 5 of task 0; minIndex = 30800, maxIndex = 36959
+Running thread 6 of task 0; minIndex = 36960, maxIndex = 43119
+Running thread 7 of task 0; minIndex = 43120, maxIndex = 49279
+Running thread 8 of task 0; minIndex = 49280, maxIndex = 55439
+Execution finished
+Elapsed time    : 2.723638 s.
+student@2ac:~/2ac/examen1$ ./program 1 9
+Running 1 muktithreaded task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 6159
+Running thread 1 of task 0; minIndex = 6160, maxIndex = 12319
+Running thread 2 of task 0; minIndex = 12320, maxIndex = 18479
+Running thread 3 of task 0; minIndex = 18480, maxIndex = 24639
+Running thread 4 of task 0; minIndex = 24640, maxIndex = 30799
+Running thread 5 of task 0; minIndex = 30800, maxIndex = 36959
+Running thread 6 of task 0; minIndex = 36960, maxIndex = 43119
+Running thread 7 of task 0; minIndex = 43120, maxIndex = 49279
+Running thread 8 of task 0; minIndex = 49280, maxIndex = 55439
+Execution finished
+Elapsed time    : 2.716901 s.
+student@2ac:~/2ac/examen1$ ./program 1 9
+Running 1 muktithreaded task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 6159
+Running thread 1 of task 0; minIndex = 6160, maxIndex = 12319
+Running thread 2 of task 0; minIndex = 12320, maxIndex = 18479
+Running thread 3 of task 0; minIndex = 18480, maxIndex = 24639
+Running thread 4 of task 0; minIndex = 24640, maxIndex = 30799
+Running thread 5 of task 0; minIndex = 30800, maxIndex = 36959
+Running thread 6 of task 0; minIndex = 36960, maxIndex = 43119
+Running thread 7 of task 0; minIndex = 43120, maxIndex = 49279
+Running thread 8 of task 0; minIndex = 49280, maxIndex = 55439
+Execution finished
+Elapsed time    : 2.758098 s.
+student@2ac:~/2ac/examen1$ ./program 1 9
+Running 1 muktithreaded task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 6159
+Running thread 1 of task 0; minIndex = 6160, maxIndex = 12319
+Running thread 2 of task 0; minIndex = 12320, maxIndex = 18479
+Running thread 3 of task 0; minIndex = 18480, maxIndex = 24639
+Running thread 4 of task 0; minIndex = 24640, maxIndex = 30799
+Running thread 5 of task 0; minIndex = 30800, maxIndex = 36959
+Running thread 6 of task 0; minIndex = 36960, maxIndex = 43119
+Running thread 7 of task 0; minIndex = 43120, maxIndex = 49279
+Running thread 8 of task 0; minIndex = 49280, maxIndex = 55439
+Execution finished
+Elapsed time    : 2.690675 s.
+student@2ac:~/2ac/examen1$ gcc -O3 programa.cram.cam.cgam.cram.cam.cm.c -o progamram
+/tmp/ccbpduWl.o: In function `mcos':
+program.c:(.text+0x1bc): undefined reference to `cos'
+/tmp/ccbpduWl.o: In function `msin':
+program.c:(.text+0x1ec): undefined reference to `sin'
+/tmp/ccbpduWl.o: In function `mcosh':
+program.c:(.text+0x23e): undefined reference to `cosh'
+/tmp/ccbpduWl.o: In function `msinh':
+program.c:(.text+0x28e): undefined reference to `sinh'
+/tmp/ccbpduWl.o: In function `mexp':
+program.c:(.text+0x2de): undefined reference to `exp'
+/tmp/ccbpduWl.o: In function `mlog':
+program.c:(.text+0x32e): undefined reference to `log'
+/tmp/ccbpduWl.o: In function `msqrt':
+program.c:(.text+0x397): undefined reference to `sqrt'
+/tmp/ccbpduWl.o: In function `task':
+program.c:(.text+0x4ea): undefined reference to `pthread_create'
+/tmp/ccbpduWl.o: In function `main':
+program.c:(.text.startup+0x11c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+student@2ac:~/2ac/examen1$ gcc -O3 program.c -o program -l./program 1 91gcc program.o -o program -lm -lpthread./program 1 19gcc gcc gcc ./program 1 9gcc -oO3 prgoram ogram .,.o -o progrc -o program .-lm -lpthread
+/tmp/ccYLO4dW.o: In function `task':
+program.c:(.text+0x4ea): undefined reference to `pthread_create'
+/tmp/ccYLO4dW.o: In function `main':
+program.c:(.text.startup+0x11c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+student@2ac:~/2ac/examen1$ gcc -O3 program.c -o program -lm -kllpthread
+student@2ac:~/2ac/examen1$ gcc -O3 program.c -o program -lm -lpthread./program 1 91gcc program.o -o program -lm -lpthread
+student@2ac:~/2ac/examen1$ gcc program.o -o program -lm -lpthread-O3 program.c2 -lm -lpthread student@2ac:~/2ac/examen1$ 
+
+student@2ac:~/2ac/examen1$ program ./program 2 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 9.043587 s.
+student@2ac:~/2ac/examen1$ ./program2 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 8.917726 s.
+student@2ac:~/2ac/examen1$ ./program2 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 9.079982 s.
+student@2ac:~/2ac/examen1$ ./program2 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 9.050124 s.
+student@2ac:~/2ac/examen1$ ./program2 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 8.997387 s.
+student@2ac:~/2ac/examen1$ ./program2 1 1g./program2 1 1gcc -O3 program.c -o program2 -lm -lpthread program.o -o program
+-O3 program.cprogram.o-O3 program.c -o program2 -lm -lpthread program.o -o program
+ -p g program -lm -lpthread student@2ac:~/2ac/examen1$ 3 -lm -lpthreaddstudent@2ac:~/2ac/examen1$ 
+
+gcc: error: program3: No such file or directory
+student@2ac:~/2ac/examen1$ gcc program.o -o -pg  program3 -lm -lpthreaddstudent@2ac:~/2ac/examen1$ ./program2 1 1
+gcc program.o -o -pg  program3 -lm -lpthreadd./program2 1 1
+gcc program.o -o -pg  program3 -lm -lpthreaddstudent@2ac:~/2ac/examen1$ ./program2 1 1
+gcc program.o -o -pg  program3 -lm -lpthreadd -o -pg  program3 -lm -lpthread c -o -pg  program3 -lm -lpthreaddstudent@2ac:~/2ac/examen1$ 
+
+gcc: error: program3: No such file or directory
+student@2ac:~/2ac/examen1$ gcc progranm.c p-po qg -o program23 -lm -lpthread 
+student@2ac:~/2ac/examen1$ ./program 1 e 3 1 1
+Running 1 monolitic task...
+Running thread 0 of task 0; minIndex = 0, maxIndex = 55439
+Execution finished
+Elapsed time    : 10.279870 s.
+student@2ac:~/2ac/examen1$ ls
+cpu.txt         gmon.out  program2  program.c
+examen1.tar.gz  program   program3  program.o
+student@2ac:~/2ac/examen1$ gprof ./program3 > ingrpprof.tf.txt
+student@2ac:~/2ac/examen1$ ls
+cpu.txt         gmon.out   program   program3   program.o
+examen1.tar.gz  gprof.txt  program2  program.c
+student@2ac:~/2ac/examen1$ sudo poweroff
+[sudo] password for student: 
